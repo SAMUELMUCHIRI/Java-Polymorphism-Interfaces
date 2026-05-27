@@ -28,6 +28,12 @@ public class  Main{
         System.out.println("\nPrinting Object after down casting");
         downCastingCar.describe();
 
+        System.out.println("\nAccelerate car by 40 KM/h");
+
+        System.out.println("\nCar Initial speed "+downCastingCar.getSpeed() +" KPH");
+        downCastingCar.accelerate(40);
+        System.out.println("\nCar Final  speed "+downCastingCar.getSpeed() +" KPH");
+
         System.out.println("\nUsing Wrapper classes");
         System.out.println("Passing an string to wrapper class of Integer "+ Integer.parseInt("2024"));
         System.out.println("Passing an string to wrapper class of Double "+ Double.parseDouble("99.9"));
